@@ -1,0 +1,140 @@
+2025-08-12 22:22:06.856 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 56868 (/Users/Ivy/Desktop/java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java_Phase3/learning_center_parent)
+2025-08-12 22:22:06.858 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 22:22:08.239 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 22:22:08.247 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 22:22:08.248 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 22:22:08.248 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-12 22:22:08.279 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 22:22:08.279 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1385 ms
+2025-08-12 22:22:09.039 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-12 22:22:09.494 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-12 22:22:09.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 22:22:09.567 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 22:22:09.600 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.093 seconds (process running for 3.905)
+2025-08-12 22:22:09.604 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-12 22:22:10.184 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 22:22:10.186 [RMI TCP Connection(4)-192.168.71.52] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 22:22:10.191 [RMI TCP Connection(4)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 22:22:10.195 [RMI TCP Connection(4)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-12 22:22:10.498 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c6b2fef
+2025-08-12 22:22:10.500 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-12 23:31:16.214 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-12 23:31:16.228 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-12 23:31:16.241 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-12 23:31:16.247 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-12 23:31:19.130 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 95771 (/Users/Ivy/Desktop/java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java_Phase3/learning_center_parent)
+2025-08-12 23:31:19.131 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 23:31:20.522 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 23:31:20.530 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:31:20.531 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 23:31:20.531 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-12 23:31:20.562 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 23:31:20.562 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1394 ms
+2025-08-12 23:31:21.314 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-12 23:31:21.772 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-12 23:31:21.819 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:31:21.827 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 23:31:21.855 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.116 seconds (process running for 4.017)
+2025-08-12 23:31:21.858 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-12 23:31:22.136 [RMI TCP Connection(4)-192.168.71.52] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 23:31:22.135 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 23:31:22.142 [RMI TCP Connection(4)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 23:31:22.146 [RMI TCP Connection(4)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-08-12 23:31:22.430 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@467a8034
+2025-08-12 23:31:22.433 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-12 23:31:59.227 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-12 23:31:59.234 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-12 23:31:59.241 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-12 23:31:59.245 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-12 23:32:03.916 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 96193 (/Users/Ivy/Desktop/java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java_Phase3/learning_center_parent)
+2025-08-12 23:32:03.917 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 23:32:05.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 23:32:05.446 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:32:05.446 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 23:32:05.447 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-12 23:32:05.476 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 23:32:05.476 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1517 ms
+2025-08-12 23:32:06.185 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-12 23:32:06.631 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-12 23:32:06.677 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:32:06.685 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 23:32:06.697 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.119 seconds (process running for 3.858)
+2025-08-12 23:32:06.700 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-12 23:32:07.117 [RMI TCP Connection(1)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 23:32:07.118 [RMI TCP Connection(3)-192.168.71.52] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 23:32:07.122 [RMI TCP Connection(3)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 23:32:07.128 [RMI TCP Connection(3)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-12 23:32:07.368 [RMI TCP Connection(1)-192.168.71.52] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10ee974d
+2025-08-12 23:32:07.374 [RMI TCP Connection(1)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-12 23:33:22.943 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-12 23:33:22.950 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-12 23:33:22.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-12 23:33:22.962 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-12 23:33:26.893 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 96994 (/Users/Ivy/Desktop/java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java_Phase3/learning_center_parent)
+2025-08-12 23:33:26.894 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 23:33:28.221 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 23:33:28.229 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:33:28.230 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 23:33:28.230 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-12 23:33:28.257 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 23:33:28.258 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1330 ms
+2025-08-12 23:33:28.964 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-12 23:33:29.385 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-12 23:33:29.439 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:33:29.447 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 23:33:29.466 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.913 seconds (process running for 3.645)
+2025-08-12 23:33:29.470 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-12 23:33:29.600 [RMI TCP Connection(4)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 23:33:29.610 [RMI TCP Connection(3)-192.168.71.52] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 23:33:29.612 [RMI TCP Connection(3)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 23:33:29.618 [RMI TCP Connection(3)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-12 23:33:29.850 [RMI TCP Connection(4)-192.168.71.52] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a58d94
+2025-08-12 23:33:29.855 [RMI TCP Connection(4)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-12 23:34:07.366 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-12 23:34:07.372 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-12 23:34:07.381 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-12 23:34:07.387 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-12 23:34:11.535 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 97438 (/Users/Ivy/Desktop/java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java_Phase3/learning_center_parent)
+2025-08-12 23:34:11.536 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 23:34:12.786 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 23:34:12.796 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:34:12.797 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 23:34:12.797 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-12 23:34:12.829 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 23:34:12.830 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1255 ms
+2025-08-12 23:34:13.489 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-12 23:34:13.903 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-12 23:34:13.946 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:34:13.954 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 23:34:13.986 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.807 seconds (process running for 3.577)
+2025-08-12 23:34:13.988 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-12 23:34:14.143 [RMI TCP Connection(1)-192.168.71.52] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 23:34:14.147 [RMI TCP Connection(1)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 23:34:14.150 [RMI TCP Connection(1)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-12 23:34:14.153 [RMI TCP Connection(4)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 23:34:14.398 [RMI TCP Connection(4)-192.168.71.52] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bca143e
+2025-08-12 23:34:14.403 [RMI TCP Connection(4)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-12 23:34:25.098 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-12 23:34:25.104 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-12 23:34:25.110 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-12 23:34:25.120 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-12 23:34:27.655 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 97588 (/Users/Ivy/Desktop/java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java_Phase3/learning_center_parent)
+2025-08-12 23:34:27.656 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-12 23:34:28.879 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-12 23:34:28.888 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:34:28.889 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-12 23:34:28.889 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-12 23:34:28.921 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-12 23:34:28.921 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1230 ms
+2025-08-12 23:34:29.618 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-12 23:34:30.023 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-12 23:34:30.066 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-12 23:34:30.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-12 23:34:30.085 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.77 seconds (process running for 3.505)
+2025-08-12 23:34:30.088 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-12 23:34:30.377 [RMI TCP Connection(4)-192.168.71.52] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-12 23:34:30.377 [RMI TCP Connection(3)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-12 23:34:30.380 [RMI TCP Connection(4)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-12 23:34:30.383 [RMI TCP Connection(4)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-12 23:34:30.628 [RMI TCP Connection(3)-192.168.71.52] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2735aa8c
+2025-08-12 23:34:30.633 [RMI TCP Connection(3)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.

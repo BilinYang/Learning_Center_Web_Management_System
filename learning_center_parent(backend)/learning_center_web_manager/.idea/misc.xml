@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../03阶段javaweb课件-2/Day16-后端Web实战(AOP)/资料/01. Aop入门基础工程/springboot-aop-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/../03阶段javaweb课件-2/Day16-后端Web实战(AOP)/代码/tlias-web-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../03阶段javaweb课件-2/Day17-后端Web原理(SpringBoot原理)/资料/02. bean管理/springboot-web-config/pom.xml" />
+        <option value="$PROJECT_DIR$/../03阶段javaweb课件-2/Day17-后端Web原理(SpringBoot原理)/资料/03. 自动配置原理/itheima-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/../learning_center_entity/pom.xml" />
+        <option value="$PROJECT_DIR$/../learning_center_utils/pom.xml" />
+        <option value="$PROJECT_DIR$/../learning_center_parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK" />
+</project>

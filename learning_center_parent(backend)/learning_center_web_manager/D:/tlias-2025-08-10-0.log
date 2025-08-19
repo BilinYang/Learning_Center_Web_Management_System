@@ -1,0 +1,1112 @@
+2025-08-10 00:08:11.029 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 706 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 00:08:11.030 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 00:08:12.445 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 00:08:12.453 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:08:12.454 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 00:08:12.454 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 00:08:12.484 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 00:08:12.485 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1419 ms
+2025-08-10 00:08:13.210 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 00:08:13.686 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 00:08:13.735 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:08:13.744 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 00:08:13.775 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.099 seconds (process running for 3.867)
+2025-08-10 00:08:13.777 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 00:08:14.190 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 00:08:14.195 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 00:08:14.200 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 4 ms
+2025-08-10 00:08:14.202 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 00:08:14.475 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ff2e9de
+2025-08-10 00:08:14.476 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 00:08:27.456 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /depts
+2025-08-10 00:08:27.457 [http-nio-8080-exec-2] WARN  com.bilin.interceptor.LoginCheckInterceptor-Token is null
+2025-08-10 00:12:13.540 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 00:12:15.558 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 00:12:15.573 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 00:12:15.585 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 00:12:20.598 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 3811 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 00:12:20.599 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 00:12:21.920 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 00:12:21.928 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:12:21.928 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 00:12:21.929 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 00:12:21.957 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 00:12:21.958 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1325 ms
+2025-08-10 00:12:22.692 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 00:12:23.167 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 00:12:23.217 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:12:23.225 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 00:12:23.241 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.982 seconds (process running for 3.809)
+2025-08-10 00:12:23.244 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 00:12:23.759 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 00:12:23.758 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 00:12:23.765 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 00:12:23.770 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-10 00:12:24.037 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66b9fbb8
+2025-08-10 00:12:24.039 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 00:12:26.034 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /depts
+2025-08-10 00:12:26.035 [http-nio-8080-exec-1] WARN  com.bilin.interceptor.LoginCheckInterceptor-Token is null
+2025-08-10 00:12:49.040 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 00:12:51.064 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 00:12:51.083 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 00:12:51.090 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 00:12:56.062 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 4250 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 00:12:56.063 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 00:12:57.380 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 00:12:57.387 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:12:57.388 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 00:12:57.388 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 00:12:57.417 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 00:12:57.417 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1320 ms
+2025-08-10 00:12:57.851 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webConfig': Unsatisfied dependency expressed through field 'loginCheckInterceptor': No qualifying bean of type 'com.bilin.interceptor.LoginCheckInterceptor' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-08-10 00:12:57.855 [main] INFO  org.apache.catalina.core.StandardService-Stopping service [Tomcat]
+2025-08-10 00:12:57.896 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger-
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-10 00:12:57.909 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field loginCheckInterceptor in com.bilin.config.WebConfig required a bean of type 'com.bilin.interceptor.LoginCheckInterceptor' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.bilin.interceptor.LoginCheckInterceptor' in your configuration.
+
+2025-08-10 00:13:23.290 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 4584 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 00:13:23.291 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 00:13:24.553 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 00:13:24.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:13:24.561 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 00:13:24.561 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 00:13:24.590 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 00:13:24.590 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1266 ms
+2025-08-10 00:13:25.309 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 00:13:25.734 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 00:13:25.779 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:13:25.788 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 00:13:25.799 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.841 seconds (process running for 3.571)
+2025-08-10 00:13:25.803 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 00:13:25.993 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 00:13:25.991 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 00:13:25.994 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 00:13:25.997 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-10 00:13:26.264 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53dafe
+2025-08-10 00:13:26.266 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 00:13:29.571 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-uri: /depts
+2025-08-10 00:13:29.572 [http-nio-8080-exec-1] ERROR com.bilin.filter.LoginCheckFilter-Token is null
+2025-08-10 00:13:40.357 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-uri: /depts
+2025-08-10 00:13:40.357 [http-nio-8080-exec-3] ERROR com.bilin.filter.LoginCheckFilter-Token is null
+2025-08-10 00:14:29.344 [http-nio-8080-exec-4] INFO  com.bilin.filter.LoginCheckFilter-uri: /login
+2025-08-10 00:14:29.442 [http-nio-8080-exec-4] INFO  com.bilin.controller.LoginController-Employee login: Emp(id=null, username=songjiang, password=33, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-08-10 00:15:21.281 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 00:15:23.297 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 00:15:23.318 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 00:15:23.330 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 00:24:37.328 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 12771 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 00:24:37.330 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 00:24:38.681 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 11010 (http)
+2025-08-10 00:24:38.689 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-11010"]
+2025-08-10 00:24:38.690 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 00:24:38.690 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 00:24:38.723 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 00:24:38.723 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1360 ms
+2025-08-10 00:24:39.469 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 00:24:39.963 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 00:24:40.010 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-11010"]
+2025-08-10 00:24:40.019 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 11010 (http) with context path '/'
+2025-08-10 00:24:40.042 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.073 seconds (process running for 3.932)
+2025-08-10 00:24:40.046 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 00:24:40.396 [RMI TCP Connection(2)-192.168.71.42] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 00:24:40.403 [RMI TCP Connection(1)-192.168.71.42] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 00:24:40.408 [RMI TCP Connection(1)-192.168.71.42] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 00:24:40.412 [RMI TCP Connection(1)-192.168.71.42] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-08-10 00:24:40.652 [RMI TCP Connection(2)-192.168.71.42] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ae1dd66
+2025-08-10 00:24:40.654 [RMI TCP Connection(2)-192.168.71.42] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 00:24:47.896 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 00:24:49.911 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 00:24:49.931 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 00:24:49.942 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 00:24:58.997 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 13036 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 00:24:58.998 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 00:25:00.348 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 9000 (http)
+2025-08-10 00:25:00.355 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-9000"]
+2025-08-10 00:25:00.356 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 00:25:00.356 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 00:25:00.385 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 00:25:00.385 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1352 ms
+2025-08-10 00:25:01.108 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 00:25:01.566 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 00:25:01.612 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-9000"]
+2025-08-10 00:25:01.620 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 9000 (http) with context path '/'
+2025-08-10 00:25:01.648 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.998 seconds (process running for 3.782)
+2025-08-10 00:25:01.651 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 00:25:02.185 [RMI TCP Connection(4)-192.168.71.42] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 00:25:02.185 [RMI TCP Connection(3)-192.168.71.42] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 00:25:02.188 [RMI TCP Connection(4)-192.168.71.42] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 00:25:02.196 [RMI TCP Connection(4)-192.168.71.42] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-10 00:25:02.434 [RMI TCP Connection(3)-192.168.71.42] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@769547da
+2025-08-10 00:25:02.436 [RMI TCP Connection(3)-192.168.71.42] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 00:25:51.239 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 00:25:53.252 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 00:25:53.261 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 00:25:53.267 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 00:25:55.612 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 13726 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 00:25:55.613 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 00:25:56.953 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 00:25:56.960 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:25:56.961 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 00:25:56.961 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 00:25:56.990 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 00:25:56.991 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1345 ms
+2025-08-10 00:25:57.699 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 00:25:58.126 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 00:25:58.172 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 00:25:58.180 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 00:25:58.192 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.919 seconds (process running for 3.676)
+2025-08-10 00:25:58.196 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 00:25:58.836 [RMI TCP Connection(1)-192.168.71.42] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 00:25:58.846 [RMI TCP Connection(4)-192.168.71.42] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 00:25:58.849 [RMI TCP Connection(4)-192.168.71.42] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 00:25:58.854 [RMI TCP Connection(4)-192.168.71.42] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-10 00:25:59.105 [RMI TCP Connection(1)-192.168.71.42] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63ad6452
+2025-08-10 00:25:59.107 [RMI TCP Connection(1)-192.168.71.42] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 00:28:16.263 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 00:28:18.283 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 00:28:18.314 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 00:28:18.325 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 00:29:42.292 [main] INFO  com.bilin.LogTest-开始计算...
+2025-08-10 00:29:42.298 [main] INFO  com.bilin.LogTest-计算结果为: 101
+2025-08-10 00:29:42.298 [main] INFO  com.bilin.LogTest-结束计算...
+2025-08-10 00:29:42.309 [main] INFO  com.bilin.LogTest-info
+2025-08-10 00:29:42.309 [main] WARN  com.bilin.LogTest-warn
+2025-08-10 00:29:42.309 [main] ERROR com.bilin.LogTest-error
+2025-08-10 00:29:42.411 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils-Could not detect default configuration classes for test class [com.bilin.LearningCenterWebManagerApplicationTests]: LearningCenterWebManagerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-08-10 00:29:42.545 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper-Found @SpringBootConfiguration com.bilin.LearningCenterWebManagerApplication for test class com.bilin.LearningCenterWebManagerApplicationTests
+2025-08-10 00:29:43.143 [main] INFO  c.bilin.LearningCenterWebManagerApplicationTests-Starting LearningCenterWebManagerApplicationTests using Java 21.0.2 with PID 16498 (started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 00:29:43.144 [main] INFO  c.bilin.LearningCenterWebManagerApplicationTests-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 00:29:45.891 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 00:29:46.575 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 00:29:46.664 [main] INFO  c.bilin.LearningCenterWebManagerApplicationTests-Started LearningCenterWebManagerApplicationTests in 4.006 seconds (process running for 5.601)
+2025-08-10 18:47:31.261 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 40727 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 18:47:31.262 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 18:47:32.658 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 10010 (http)
+2025-08-10 18:47:32.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-10010"]
+2025-08-10 18:47:32.667 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 18:47:32.667 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 18:47:32.698 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 18:47:32.698 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1404 ms
+2025-08-10 18:47:33.481 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 18:47:33.981 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 18:47:34.034 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-10010"]
+2025-08-10 18:47:34.043 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 10010 (http) with context path '/'
+2025-08-10 18:47:34.056 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.155 seconds (process running for 4.128)
+2025-08-10 18:47:34.060 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 18:47:34.629 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 18:47:34.629 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 18:47:34.632 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 18:47:34.636 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-10 18:47:34.919 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e7c9080
+2025-08-10 18:47:34.924 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 20:58:17.787 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 22171 (/Users/Ivy/Desktop/learning_center_web_manager_new/target/classes started by Ivy in /Users/Ivy/Desktop/learning_center_web_manager_new)
+2025-08-10 20:58:17.788 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 20:58:19.148 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 10010 (http)
+2025-08-10 20:58:19.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-10010"]
+2025-08-10 20:58:19.157 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 20:58:19.157 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 20:58:19.188 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 20:58:19.189 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1359 ms
+2025-08-10 20:58:19.932 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 20:58:20.383 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 20:58:20.428 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-10010"]
+2025-08-10 20:58:20.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 10010 (http) with context path '/'
+2025-08-10 20:58:20.458 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.009 seconds (process running for 3.783)
+2025-08-10 20:58:20.463 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 20:58:21.145 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 20:58:21.145 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 20:58:21.151 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 20:58:21.160 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-08-10 20:58:21.410 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f8d9d98
+2025-08-10 20:58:21.412 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 20:58:53.319 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 20:58:53.329 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 20:58:53.334 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 20:58:53.338 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:01:09.409 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 23749 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:01:09.410 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:01:10.759 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 10010 (http)
+2025-08-10 21:01:10.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-10010"]
+2025-08-10 21:01:10.767 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:01:10.768 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:01:10.799 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:01:10.799 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1355 ms
+2025-08-10 21:01:11.514 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:01:11.952 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:01:11.996 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-10010"]
+2025-08-10 21:01:12.004 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 10010 (http) with context path '/'
+2025-08-10 21:01:12.020 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.978 seconds (process running for 3.738)
+2025-08-10 21:01:12.024 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:01:12.583 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:01:12.583 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:01:12.589 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:01:12.593 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-08-10 21:01:12.838 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5540721c
+2025-08-10 21:01:12.840 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:23:02.658 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:23:02.668 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:23:02.675 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:23:02.680 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:23:05.302 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 35773 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:23:05.303 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:23:06.681 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 10010 (http)
+2025-08-10 21:23:06.689 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-10010"]
+2025-08-10 21:23:06.690 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:23:06.690 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:23:06.717 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:23:06.717 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1381 ms
+2025-08-10 21:23:07.439 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:23:07.894 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:23:07.941 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-10010"]
+2025-08-10 21:23:07.949 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 10010 (http) with context path '/'
+2025-08-10 21:23:07.975 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.015 seconds (process running for 3.929)
+2025-08-10 21:23:07.979 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:23:08.246 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:23:08.247 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:23:08.251 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:23:08.254 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-10 21:23:08.497 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1556b0ee
+2025-08-10 21:23:08.503 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:23:13.601 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:23:13.608 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:23:13.614 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:23:13.619 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:23:15.883 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 35874 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:23:15.884 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:23:17.205 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 10010 (http)
+2025-08-10 21:23:17.212 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-10010"]
+2025-08-10 21:23:17.213 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:23:17.213 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:23:17.240 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:23:17.240 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1314 ms
+2025-08-10 21:23:17.968 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:23:18.392 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:23:18.437 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-10010"]
+2025-08-10 21:23:18.446 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 10010 (http) with context path '/'
+2025-08-10 21:23:18.477 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.936 seconds (process running for 3.734)
+2025-08-10 21:23:18.480 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:23:18.651 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:23:18.656 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:23:18.659 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:23:18.665 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-08-10 21:23:18.929 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7110d6d
+2025-08-10 21:23:18.932 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:23:42.522 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:23:42.531 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:23:42.537 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:23:42.544 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:23:45.522 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 36155 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:23:45.523 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:23:46.836 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:23:46.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:23:46.844 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:23:46.844 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:23:46.874 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:23:46.874 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1317 ms
+2025-08-10 21:23:47.567 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:23:47.990 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:23:48.035 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:23:48.066 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:23:48.094 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.905 seconds (process running for 3.649)
+2025-08-10 21:23:48.098 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:23:48.418 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:23:48.420 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:23:48.423 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:23:48.425 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-08-10 21:23:48.678 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d303fc2
+2025-08-10 21:23:48.680 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:23:52.574 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-uri: /emps/list
+2025-08-10 21:23:52.574 [http-nio-8080-exec-1] ERROR com.bilin.filter.LoginCheckFilter-Token is null
+2025-08-10 21:24:06.901 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-uri: /login
+2025-08-10 21:24:06.975 [http-nio-8080-exec-3] INFO  com.bilin.controller.LoginController-Employee login: Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-08-10 21:24:30.539 [http-nio-8080-exec-4] INFO  com.bilin.filter.LoginCheckFilter-uri: /emps/1
+2025-08-10 21:24:30.555 [http-nio-8080-exec-4] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 21:24:30.564 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Get employee by id: 1
+2025-08-10 21:24:33.146 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:24:33.156 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:24:33.162 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:24:33.165 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:39:58.169 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 45059 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:39:58.170 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:39:59.520 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:39:59.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:39:59.528 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:39:59.529 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:39:59.556 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:39:59.556 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1351 ms
+2025-08-10 21:40:00.284 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:40:00.713 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:40:00.760 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:40:00.778 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:40:00.808 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.982 seconds (process running for 3.741)
+2025-08-10 21:40:00.811 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:40:01.353 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:40:01.353 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:40:01.358 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:40:01.363 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-10 21:40:01.605 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@276673ea
+2025-08-10 21:40:01.607 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:40:11.382 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 21:40:11.382 [http-nio-8080-exec-2] ERROR com.bilin.filter.LoginCheckFilter-Token is null
+2025-08-10 21:40:43.876 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 21:40:43.910 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 21:40:43.926 [http-nio-8080-exec-3] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.web.servlet.resource.NoResourceFoundException: No static resource report/empJobData.
+	at org.springframework.web.servlet.resource.ResourceHttpRequestHandler.handleRequest(ResourceHttpRequestHandler.java:585)
+	at org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter.handle(HttpRequestHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.bilin.filter.LoginCheckFilter.doFilter(LoginCheckFilter.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-10 21:41:06.632 [http-nio-8080-exec-4] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 21:41:06.633 [http-nio-8080-exec-4] ERROR com.bilin.filter.LoginCheckFilter-Token parse failed: JWT strings must contain exactly 2 period characters. Found: 0
+2025-08-10 21:42:22.800 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:42:22.816 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:42:22.824 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:42:22.828 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:42:27.476 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 46422 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:42:27.476 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:42:28.812 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:42:28.820 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:42:28.821 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:42:28.822 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:42:28.855 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:42:28.855 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1343 ms
+2025-08-10 21:42:29.592 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:42:30.038 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:42:30.084 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:42:30.091 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:42:30.120 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.994 seconds (process running for 3.778)
+2025-08-10 21:42:30.123 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:42:30.651 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:42:30.651 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:42:30.653 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:42:30.658 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-08-10 21:42:30.942 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77b794da
+2025-08-10 21:42:30.944 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:42:38.516 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 21:42:38.538 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 21:42:38.553 [http-nio-8080-exec-2] INFO  com.bilin.controller.ReportController-Count the number of employees in each position.
+2025-08-10 21:42:38.937 [http-nio-8080-exec-2] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else then 'Other' end) pos,
+            count(*)
+       ' at line 6
+### The error may exist in com/bilin/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select             (case job when 1 then 'Class teacher'                       when 2 then 'Lecturer'                       when 3 then 'Student Affairs Supervisor'                       when 4 then 'Teaching Research Supervisor'                       when 5 then 'Counselor')                       else then 'Other' end) pos,             count(*)         from emp group by job         order by total
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else then 'Other' end) pos,
+            count(*)
+       ' at line 6
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy103.countEmpJobData(Unknown Source)
+	at com.bilin.service.impl.ReportServiceImpl.getEmpJobData(ReportServiceImpl.java:19)
+	at com.bilin.controller.ReportController.getEmpJobData(ReportController.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.bilin.filter.LoginCheckFilter.doFilter(LoginCheckFilter.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else then 'Other' end) pos,
+            count(*)
+       ' at line 6
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy132.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 64 common frames omitted
+2025-08-10 21:43:26.127 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:43:26.134 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:43:26.139 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:43:26.143 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:43:28.508 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 46980 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:43:28.510 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:43:29.910 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:43:29.917 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:43:29.918 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:43:29.918 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:43:29.949 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:43:29.950 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1402 ms
+2025-08-10 21:43:30.681 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:43:31.111 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:43:31.161 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:43:31.170 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:43:31.193 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.034 seconds (process running for 3.834)
+2025-08-10 21:43:31.197 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:43:31.767 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:43:31.768 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:43:31.772 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:43:31.774 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-10 21:43:32.045 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@607431b0
+2025-08-10 21:43:32.047 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:43:34.855 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 21:43:34.876 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 21:43:34.890 [http-nio-8080-exec-1] INFO  com.bilin.controller.ReportController-Count the number of employees in each position.
+2025-08-10 21:43:35.264 [http-nio-8080-exec-1] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else 'Other' end) pos,
+            count(*)
+        from' at line 6
+### The error may exist in com/bilin/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select             (case job when 1 then 'Class teacher'                       when 2 then 'Lecturer'                       when 3 then 'Student Affairs Supervisor'                       when 4 then 'Teaching Research Supervisor'                       when 5 then 'Counselor')                       else 'Other' end) pos,             count(*)         from emp group by job         order by total
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else 'Other' end) pos,
+            count(*)
+        from' at line 6
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy103.countEmpJobData(Unknown Source)
+	at com.bilin.service.impl.ReportServiceImpl.getEmpJobData(ReportServiceImpl.java:19)
+	at com.bilin.controller.ReportController.getEmpJobData(ReportController.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.bilin.filter.LoginCheckFilter.doFilter(LoginCheckFilter.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else 'Other' end) pos,
+            count(*)
+        from' at line 6
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy132.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 64 common frames omitted
+2025-08-10 21:43:54.906 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:43:54.914 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:43:54.919 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:43:54.923 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:43:57.266 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 47245 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:43:57.267 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:43:58.669 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:43:58.677 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:43:58.677 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:43:58.677 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:43:58.708 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:43:58.709 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1404 ms
+2025-08-10 21:43:59.462 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:43:59.917 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:43:59.969 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:43:59.977 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:43:59.989 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.094 seconds (process running for 3.856)
+2025-08-10 21:43:59.993 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:44:00.486 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:44:00.485 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:44:00.487 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:44:00.489 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-10 21:44:00.735 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2354dbf3
+2025-08-10 21:44:00.738 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:44:02.939 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 21:44:02.962 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 21:44:02.978 [http-nio-8080-exec-2] INFO  com.bilin.controller.ReportController-Count the number of employees in each position.
+2025-08-10 21:44:03.375 [http-nio-8080-exec-2] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else 'Other' end) as pos,
+            count(*) as total ' at line 6
+### The error may exist in com/bilin/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: select             (case job when 1 then 'Class teacher'                       when 2 then 'Lecturer'                       when 3 then 'Student Affairs Supervisor'                       when 4 then 'Teaching Research Supervisor'                       when 5 then 'Counselor')                       else 'Other' end) as pos,             count(*) as total          from emp group by job         order by total
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else 'Other' end) as pos,
+            count(*) as total ' at line 6
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy103.countEmpJobData(Unknown Source)
+	at com.bilin.service.impl.ReportServiceImpl.getEmpJobData(ReportServiceImpl.java:19)
+	at com.bilin.controller.ReportController.getEmpJobData(ReportController.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.bilin.filter.LoginCheckFilter.doFilter(LoginCheckFilter.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+                      else 'Other' end) as pos,
+            count(*) as total ' at line 6
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy132.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 64 common frames omitted
+2025-08-10 21:44:19.208 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:44:19.216 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:44:19.222 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:44:19.225 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:44:21.552 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 47467 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:44:21.553 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:44:22.856 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:44:22.862 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:44:22.863 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:44:22.863 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:44:22.889 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:44:22.890 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1302 ms
+2025-08-10 21:44:23.580 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:44:23.988 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:44:24.034 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:44:24.042 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:44:24.070 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.874 seconds (process running for 3.641)
+2025-08-10 21:44:24.073 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:44:24.307 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:44:24.318 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:44:24.321 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:44:24.325 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-10 21:44:24.558 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@228ceda8
+2025-08-10 21:44:24.560 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:44:25.097 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 21:44:25.116 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 21:44:25.128 [http-nio-8080-exec-1] INFO  com.bilin.controller.ReportController-Count the number of employees in each position.
+2025-08-10 21:45:14.876 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:45:14.884 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:45:14.890 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:45:14.893 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:51:50.180 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 51572 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:51:50.185 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:51:51.624 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:51:51.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:51:51.633 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:51:51.633 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:51:51.661 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:51:51.661 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1433 ms
+2025-08-10 21:51:52.439 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:51:52.896 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:51:52.943 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:51:52.951 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:51:52.983 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.128 seconds (process running for 3.864)
+2025-08-10 21:51:52.986 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:51:53.369 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:51:53.370 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:51:53.372 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-10 21:51:53.377 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:51:53.640 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d0e02d3
+2025-08-10 21:51:53.643 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:52:07.162 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empGenderData
+2025-08-10 21:52:07.181 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 21:52:07.196 [http-nio-8080-exec-1] INFO  com.bilin.controller.ReportController-Count the number of employees of each gender.
+2025-08-10 21:53:41.533 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:53:41.541 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:53:41.546 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:53:41.549 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:53:43.812 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 52624 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:53:43.813 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:53:45.189 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:53:45.196 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:53:45.197 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:53:45.197 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:53:45.226 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:53:45.227 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1369 ms
+2025-08-10 21:53:45.995 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:53:46.433 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:53:46.523 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:53:46.532 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:53:46.545 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.077 seconds (process running for 3.984)
+2025-08-10 21:53:46.549 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:53:46.948 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:53:46.951 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:53:46.952 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:53:46.955 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-08-10 21:53:47.201 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a570723
+2025-08-10 21:53:47.206 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:54:21.365 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:54:21.372 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:54:21.378 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:54:21.384 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 21:54:25.172 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 53004 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 21:54:25.173 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:54:26.503 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 21:54:26.510 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:54:26.511 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 21:54:26.511 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:54:26.540 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 21:54:26.540 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1333 ms
+2025-08-10 21:54:27.364 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 21:54:27.785 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:54:27.831 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 21:54:27.858 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 21:54:27.878 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.038 seconds (process running for 3.784)
+2025-08-10 21:54:27.882 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 21:54:28.470 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 21:54:28.472 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:54:28.473 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:54:28.476 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-08-10 21:54:28.714 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@117b7d03
+2025-08-10 21:54:28.716 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 21:54:43.415 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:54:43.423 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 21:54:43.431 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 21:54:43.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 22:23:37.340 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 62672 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 22:23:37.342 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 22:23:38.738 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 22:23:38.746 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 22:23:38.747 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 22:23:38.748 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 22:23:38.780 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 22:23:38.781 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1400 ms
+2025-08-10 22:23:39.512 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 22:23:40.016 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 22:23:40.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 22:23:40.120 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 22:23:40.156 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.157 seconds (process running for 3.954)
+2025-08-10 22:23:40.161 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 22:23:40.484 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 22:23:40.483 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 22:23:40.489 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 22:23:40.497 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 4 ms
+2025-08-10 22:23:40.760 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52983364
+2025-08-10 22:23:40.762 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 22:23:52.633 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empGenderData
+2025-08-10 22:23:52.654 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 22:23:52.669 [http-nio-8080-exec-2] INFO  com.bilin.controller.ReportController-Count the number of employees of each gender.
+2025-08-10 22:24:20.831 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 22:24:20.840 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 22:24:20.842 [http-nio-8080-exec-3] INFO  com.bilin.controller.ReportController-Count the number of employees in each position.
+2025-08-10 22:24:30.164 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 22:24:30.171 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 22:24:30.178 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 22:24:30.181 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-10 22:32:37.212 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 67601 (/Users/Ivy/Desktop/java第三阶段/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_web_manager)
+2025-08-10 22:32:37.214 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-10 22:32:38.576 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-10 22:32:38.584 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-10 22:32:38.584 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-10 22:32:38.585 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 22:32:38.612 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-10 22:32:38.612 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1360 ms
+2025-08-10 22:32:39.314 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-10 22:32:39.762 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 22:32:39.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-10 22:32:39.818 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-10 22:32:39.835 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.964 seconds (process running for 3.709)
+2025-08-10 22:32:39.838 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-10 22:32:40.425 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-10 22:32:40.427 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 22:32:40.432 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-10 22:32:40.437 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 3 ms
+2025-08-10 22:32:40.683 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@555fafee
+2025-08-10 22:32:40.685 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-10 22:32:45.492 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/empJobData
+2025-08-10 22:32:45.512 [http-nio-8080-exec-2] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 22:32:45.526 [http-nio-8080-exec-2] INFO  com.bilin.controller.ReportController-Count the number of employees in each position.
+2025-08-10 22:32:54.969 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-uri: /report/studentDegreeData
+2025-08-10 22:32:54.974 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-10 22:32:54.977 [http-nio-8080-exec-3] INFO  com.bilin.controller.ReportController-Count the number of students by highest degree/education level earned
+2025-08-10 22:32:55.350 [http-nio-8080-exec-3] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'case degree when 1 then 'Middle school'
+                     when 2 then 'High s' at line 1
+### The error may exist in com/bilin/mapper/EmpMapper.xml
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: (case degree when 1 then 'Middle school'                      when 2 then 'High school'                      when 3 then 'Junior college'                      when 4 then 'Bachelor''s'                      when 5 then 'Mater''s'                      when 6 then 'Doctorate'                      else 'Other' end) as name                 count(*) as value)         from student group by degree
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'case degree when 1 then 'Middle school'
+                     when 2 then 'High s' at line 1
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy104.countStudentDegreeData(Unknown Source)
+	at com.bilin.service.impl.ReportServiceImpl.getStudentDegreeData(ReportServiceImpl.java:39)
+	at com.bilin.controller.ReportController.getStudentDegreeData(ReportController.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at com.bilin.filter.LoginCheckFilter.doFilter(LoginCheckFilter.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'case degree when 1 then 'Middle school'
+                     when 2 then 'High s' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy134.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:151)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy133.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 64 common frames omitted
+2025-08-10 22:33:19.001 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 22:33:19.008 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-10 22:33:19.014 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-10 22:33:19.019 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

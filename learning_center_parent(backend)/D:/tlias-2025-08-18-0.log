@@ -1,0 +1,874 @@
+2025-08-18 18:50:04.635 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 65805 (/Users/Ivy/Desktop/Java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/Java_Phase3/learning_center_parent)
+2025-08-18 18:50:04.636 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-18 18:50:05.995 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-18 18:50:06.005 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 18:50:06.006 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-18 18:50:06.006 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-18 18:50:06.037 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-18 18:50:06.038 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1367 ms
+2025-08-18 18:50:06.765 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-18 18:50:07.229 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-18 18:50:07.274 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 18:50:07.283 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-18 18:50:07.300 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.015 seconds (process running for 3.817)
+2025-08-18 18:50:07.303 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-18 18:50:07.717 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-18 18:50:07.719 [RMI TCP Connection(4)-192.168.71.52] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 18:50:07.724 [RMI TCP Connection(4)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-18 18:50:07.728 [RMI TCP Connection(4)-192.168.71.52] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-18 18:50:08.005 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14be47d7
+2025-08-18 18:50:08.006 [RMI TCP Connection(2)-192.168.71.52] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-18 18:51:38.331 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 18:51:38.331 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 18:51:38.332 [http-nio-8080-exec-1] WARN  com.bilin.interceptor.LoginCheckInterceptor-Token is null
+2025-08-18 18:51:38.332 [http-nio-8080-exec-2] WARN  com.bilin.interceptor.LoginCheckInterceptor-Token is null
+2025-08-18 18:51:48.115 [http-nio-8080-exec-3] INFO  com.bilin.controller.LoginController-Employee login: Emp(id=null, username=songjiang, password=2342, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-08-18 18:51:51.253 [http-nio-8080-exec-4] INFO  com.bilin.controller.LoginController-Employee login: Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-08-18 18:51:53.475 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 18:51:53.492 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:51:54.509 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 18:51:54.509 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 18:51:54.519 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:51:54.519 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:51:54.540 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 18:51:55.622 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 18:51:55.637 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:51:55.648 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 18:51:59.319 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 18:51:59.325 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:51:59.330 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:s, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 18:52:01.877 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 18:52:01.881 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:55:48.675 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 18:55:48.684 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:55:49.260 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 18:55:49.261 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 18:55:49.265 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:55:49.265 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:55:49.271 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 18:55:50.453 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 18:55:50.460 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 18:57:12.343 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 18:57:12.349 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:10:54.047 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:10:54.047 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:10:54.059 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:10:54.059 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:10:54.066 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:10:57.269 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:10:57.273 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:10:57.350 [http-nio-8080-exec-8] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.bilin.entity.Result com.bilin.controller.EmpController.page(com.bilin.entity.EmpQueryParam): [Field error in object 'empQueryParam' on field 'gender': rejected value [li]; codes [typeMismatch.empQueryParam.gender,typeMismatch.gender,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empQueryParam.gender,gender]; arguments []; default message [gender]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'gender'; For input string: "li"]] 
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:158)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-18 19:10:58.057 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:10:58.061 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:10:58.077 [http-nio-8080-exec-9] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.bilin.entity.Result com.bilin.controller.EmpController.page(com.bilin.entity.EmpQueryParam): [Field error in object 'empQueryParam' on field 'gender': rejected value [li]; codes [typeMismatch.empQueryParam.gender,typeMismatch.gender,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empQueryParam.gender,gender]; arguments []; default message [gender]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'gender'; For input string: "li"]] 
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:158)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-18 19:11:02.686 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:02.694 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:02.700 [http-nio-8080-exec-10] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.bilin.entity.Result com.bilin.controller.EmpController.page(com.bilin.entity.EmpQueryParam): [Field error in object 'empQueryParam' on field 'gender': rejected value [Li]; codes [typeMismatch.empQueryParam.gender,typeMismatch.gender,typeMismatch.java.lang.Integer,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empQueryParam.gender,gender]; arguments []; default message [gender]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.lang.Integer' for property 'gender'; For input string: "Li"]] 
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:158)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-18 19:11:03.237 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:03.243 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:03.247 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:03.680 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:03.684 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:03.715 [http-nio-8080-exec-3] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.bilin.entity.Result com.bilin.controller.EmpController.page(com.bilin.entity.EmpQueryParam): [Field error in object 'empQueryParam' on field 'begin': rejected value [undefined]; codes [typeMismatch.empQueryParam.begin,typeMismatch.begin,typeMismatch.java.time.LocalDate,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empQueryParam.begin,begin]; arguments []; default message [begin]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDate' for property 'begin'; Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value [undefined]]] 
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:158)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-18 19:11:06.636 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:06.642 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:06.650 [http-nio-8080-exec-1] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.bilin.entity.Result com.bilin.controller.EmpController.page(com.bilin.entity.EmpQueryParam) with 2 errors: [Field error in object 'empQueryParam' on field 'begin': rejected value [undefined]; codes [typeMismatch.empQueryParam.begin,typeMismatch.begin,typeMismatch.java.time.LocalDate,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empQueryParam.begin,begin]; arguments []; default message [begin]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDate' for property 'begin'; Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value [undefined]]] [Field error in object 'empQueryParam' on field 'end': rejected value [1]; codes [typeMismatch.empQueryParam.end,typeMismatch.end,typeMismatch.java.time.LocalDate,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [empQueryParam.end,end]; arguments []; default message [end]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDate' for property 'end'; Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value [1]]] 
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:158)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-18 19:11:12.692 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:11:12.692 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:12.695 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:12.695 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:12.699 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:14.629 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:14.629 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:11:14.633 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:14.633 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:14.636 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:15.575 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:15.578 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:15.580 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:18.765 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:18.768 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:18.776 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:Li, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:19.466 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:19.470 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:19.473 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:Li, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:23.403 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:23.413 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:23.418 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:Guang, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:44.953 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:11:44.957 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:52.135 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:11:52.135 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:52.139 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:52.139 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:52.143 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:55.751 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:11:55.755 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:57.508 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:11:57.508 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:11:57.510 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:57.510 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:11:57.518 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:11:59.324 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:11:59.330 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:12:02.405 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:12:02.405 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:12:02.410 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:12:02.410 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:12:02.412 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:25:38.248 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s847ms), soft-evicting connections from pool.
+2025-08-18 19:40:00.928 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:40:00.935 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:40:06.209 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:40:06.209 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:40:06.218 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:40:06.218 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:40:06.226 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:40:42.483 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:40:42.483 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:40:42.485 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:40:42.485 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:40:42.491 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:51:47.112 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:51:47.123 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:51:47.665 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:51:47.665 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:51:47.673 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:51:47.673 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:51:47.684 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:54:58.389 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 19:54:58.398 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:54:58.407 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 19:55:53.345 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 19:55:53.349 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:55:53.350 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 19:56:51.906 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:56:51.908 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:56:52.947 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:56:52.947 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:56:52.957 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:56:52.957 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:56:52.979 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 19:56:55.679 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 19:56:55.681 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:56:55.682 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 19:58:00.915 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 19:58:00.917 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 19:58:00.920 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:58:00.920 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 19:58:00.922 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 20:00:29.909 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:00:29.915 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:00:29.915 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:02:23.297 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 20:02:23.297 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 20:02:23.301 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:02:23.301 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:02:23.305 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 20:02:30.187 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:02:30.189 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:02:30.190 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:03:55.206 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:03:55.209 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:03:55.209 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:05:14.753 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:05:14.756 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:05:14.757 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:21:45.272 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 20:21:45.283 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:38:54.402 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:38:54.436 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:38:54.438 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:38:54.526 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:38:54.529 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:38:54.529 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:43:50.590 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:43:50.602 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:43:50.604 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:43:50.629 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:43:50.640 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:43:50.640 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:44:59.254 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:44:59.265 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:44:59.269 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:44:59.300 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:44:59.305 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:44:59.306 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:45:00.445 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:45:00.448 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:45:00.505 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:45:01.109 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:45:01.115 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:45:01.118 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:45:01.643 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:45:01.645 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:45:01.648 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:45:57.337 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:45:57.340 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:45:57.341 [http-nio-8080-exec-5] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:45:57.382 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:45:57.384 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:45:57.384 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:46:08.460 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:46:08.462 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:08.468 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:46:15.583 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:46:15.586 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:15.591 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:46:30.117 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:46:30.119 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:30.121 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:46:31.680 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:46:31.683 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:31.687 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:46:56.523 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:46:56.525 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:56.526 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:46:56.541 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:46:56.548 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:56.549 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:46:57.912 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:46:57.916 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:57.916 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:46:57.933 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:46:57.936 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:57.937 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:46:58.828 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:46:58.830 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:46:58.832 [http-nio-8080-exec-5] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:49:49.843 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:49:49.847 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:49:49.848 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:49:49.874 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:49:49.875 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:49:49.875 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:53:27.006 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:53:27.008 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:53:27.008 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:53:27.038 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:53:27.041 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:53:27.042 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:53:37.259 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:53:37.262 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:53:37.263 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:53:37.283 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:53:37.290 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:53:37.290 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:53:42.324 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:53:42.330 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:53:42.332 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:53:42.348 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:53:42.353 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:53:42.355 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:54:34.104 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:54:34.106 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:54:34.106 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:54:34.118 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:54:34.120 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:54:34.121 [http-nio-8080-exec-5] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:54:35.359 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:54:35.361 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:54:35.361 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:54:35.373 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:54:35.374 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:54:35.374 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:54:43.131 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:54:43.134 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:54:43.140 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:57:57.230 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:57:57.232 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:57:57.232 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:57:57.246 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:57:57.247 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:57:57.248 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:58:01.716 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:58:01.719 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:58:01.720 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:58:01.736 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:58:01.737 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:58:01.737 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:58:02.517 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 20:58:02.519 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:58:02.522 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 20:59:37.046 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:59:37.047 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:59:37.048 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:59:37.062 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:59:37.063 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:59:37.063 [http-nio-8080-exec-5] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:59:46.105 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:59:46.106 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:59:46.107 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 20:59:46.134 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 20:59:46.135 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 20:59:46.135 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:00:20.729 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:00:20.730 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:00:20.731 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:20.732 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:20.743 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:00:23.245 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:00:23.247 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:25.446 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:00:25.448 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:25.449 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:00:25.472 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:00:25.481 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:25.482 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:00:31.240 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:00:31.246 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:31.249 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:00:36.426 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:00:36.426 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:00:36.428 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:36.429 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:36.431 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:00:38.553 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:00:38.556 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:00:38.560 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:01:00.490 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:01:00.490 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:01:00.499 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:00.499 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:00.503 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:01:02.126 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:01:02.126 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:01:02.127 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:02.127 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:02.130 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:01:04.218 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:01:04.218 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:01:04.219 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:04.219 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:04.221 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:01:04.743 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:01:04.745 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:04.751 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:01:13.814 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:01:13.817 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:18.053 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:01:18.053 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:01:18.056 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:18.057 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:18.061 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:01:28.446 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:01:28.449 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:01:28.451 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:De, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:02:09.363 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:02:09.364 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:02:09.366 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:02:09.366 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:02:09.370 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:02:13.330 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:02:13.334 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:02:13.335 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:02:13.367 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:02:13.370 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:02:13.370 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:02:31.617 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:02:31.619 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:02:31.619 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:02:31.637 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:02:31.644 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:02:31.644 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:02:33.141 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:02:33.150 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:02:33.152 [http-nio-8080-exec-5] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:02:33.895 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:02:33.913 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:02:33.915 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:03:58.919 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:03:58.934 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:03:58.935 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:03:58.952 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:03:58.959 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:03:58.960 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:04:02.639 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:04:02.645 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:04:02.653 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:05:40.638 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:05:40.642 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:40.643 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:05:40.670 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:05:40.671 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:40.671 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:05:42.902 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:05:42.903 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:42.903 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:05:42.915 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:05:42.917 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:42.917 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:05:43.546 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:05:43.548 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:43.551 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:05:56.347 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:05:56.349 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:56.349 [http-nio-8080-exec-5] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:05:56.368 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:05:56.369 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:56.370 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:05:57.565 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:05:57.566 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:57.567 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:05:57.583 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:05:57.584 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:57.584 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:05:59.860 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:05:59.861 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:05:59.865 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:06:07.846 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:06:07.848 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:06:07.849 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:06:07.865 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:06:07.866 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:06:07.867 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:32:43.367 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:32:43.379 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:32:43.381 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:32:43.406 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:32:43.406 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:32:43.406 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:32:47.512 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course/list
+2025-08-18 21:32:47.514 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:32:47.515 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Get all courses
+2025-08-18 21:34:19.681 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:34:19.683 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:34:19.691 [http-nio-8080-exec-5] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:34:19.713 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:34:19.714 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:34:19.715 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:34:21.564 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:34:21.565 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:34:21.567 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:34:21.590 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:34:21.591 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:34:21.595 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:34:46.802 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:34:46.805 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:34:46.807 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:34:46.834 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:34:46.835 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:34:46.836 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:34:47.407 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:34:47.410 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:34:47.411 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:34:47.438 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:34:47.439 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:34:47.440 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:35:56.755 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:35:56.756 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:35:56.757 [http-nio-8080-exec-8] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:35:56.773 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:35:56.774 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:35:56.780 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:36:20.983 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-18 21:36:20.993 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-18 21:36:21.037 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-18 21:36:21.041 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-18 21:36:24.698 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 90610 (/Users/Ivy/Desktop/Java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/Java_Phase3/learning_center_parent)
+2025-08-18 21:36:24.703 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-18 21:36:26.102 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-18 21:36:26.110 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-18 21:36:26.111 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-18 21:36:26.111 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-18 21:36:26.143 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-18 21:36:26.143 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1403 ms
+2025-08-18 21:36:26.899 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-18 21:36:27.422 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-18 21:36:27.503 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-18 21:36:27.512 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-18 21:36:27.533 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.194 seconds (process running for 4.133)
+2025-08-18 21:36:27.537 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-18 21:36:28.153 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-18 21:36:28.155 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-18 21:36:28.156 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-18 21:36:28.159 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-08-18 21:36:28.440 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ee69c0f
+2025-08-18 21:36:28.445 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-18 21:36:29.172 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:36:29.190 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:36:29.217 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:36:29.344 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:36:29.345 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:36:29.346 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:36:38.540 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:36:38.541 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:36:38.546 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:36:38.546 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:36:38.566 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:36:39.399 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:36:39.406 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:36:39.410 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:37:37.898 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:37:37.902 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:37:37.904 [http-nio-8080-exec-6] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:37:37.952 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:37:37.953 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:37:37.954 [http-nio-8080-exec-7] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:39:36.927 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:39:36.933 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:39:36.962 [http-nio-8080-exec-8] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.bilin.entity.Result com.bilin.controller.CourseController.page(com.bilin.entity.CourseQueryParam) with 2 errors: [Field error in object 'courseQueryParam' on field 'begin': rejected value [undefined]; codes [typeMismatch.courseQueryParam.begin,typeMismatch.begin,typeMismatch.java.time.LocalDate,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [courseQueryParam.begin,begin]; arguments []; default message [begin]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDate' for property 'begin'; Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value [undefined]]] [Field error in object 'courseQueryParam' on field 'end': rejected value [undefined]; codes [typeMismatch.courseQueryParam.end,typeMismatch.end,typeMismatch.java.time.LocalDate,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [courseQueryParam.end,end]; arguments []; default message [end]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.time.LocalDate' for property 'end'; Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.time.LocalDate] for value [undefined]]] 
+	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:158)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-08-18 21:39:43.036 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:39:43.038 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:39:43.041 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:39:43.066 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:39:43.068 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:39:43.070 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:39:45.157 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:39:45.166 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:39:45.170 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:39:45.201 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:39:45.203 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:39:45.204 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:39:47.865 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:39:47.890 [http-nio-8080-exec-4] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:39:47.906 [http-nio-8080-exec-4] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:39:47.976 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:39:47.978 [http-nio-8080-exec-3] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:39:47.980 [http-nio-8080-exec-3] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:40:00.785 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:40:00.787 [http-nio-8080-exec-5] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:40:01.207 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:40:01.207 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /dept
+2025-08-18 21:40:01.211 [http-nio-8080-exec-7] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:40:01.210 [http-nio-8080-exec-6] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:40:01.219 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:40:02.681 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /emp
+2025-08-18 21:40:02.685 [http-nio-8080-exec-8] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:40:02.688 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-18 21:40:13.090 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:40:13.094 [http-nio-8080-exec-9] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:40:13.099 [http-nio-8080-exec-9] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 21:40:13.131 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 21:40:13.132 [http-nio-8080-exec-10] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 21:40:13.134 [http-nio-8080-exec-10] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 22:33:48.806 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 22:33:48.812 [http-nio-8080-exec-1] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 22:33:48.819 [http-nio-8080-exec-1] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 22:33:48.845 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-uri: /course
+2025-08-18 22:33:48.846 [http-nio-8080-exec-2] INFO  com.bilin.interceptor.LoginCheckInterceptor-claims: {id=2, username=songjiang, exp=1755557511}
+2025-08-18 22:33:48.848 [http-nio-8080-exec-2] INFO  com.bilin.controller.CourseController-Running query on courses: courseQueryParam=CourseQueryParam(courseName=, begin=null, end=null, page=1, PageSize=5)
+2025-08-18 22:34:27.617 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s473ms).
+2025-08-18 22:51:32.375 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m34s753ms).
+2025-08-18 23:08:05.293 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m2s907ms).
+2025-08-18 23:26:09.865 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m4s550ms).
+2025-08-18 23:37:21.189 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m41s302ms).
+2025-08-18 23:39:17.702 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s496ms).

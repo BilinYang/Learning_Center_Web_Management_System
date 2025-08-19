@@ -1,0 +1,92 @@
+2025-08-11 02:03:06.340 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 83642 (/Users/Ivy/Desktop/java第三阶段/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_parent)
+2025-08-11 02:03:06.341 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-11 02:03:07.719 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-11 02:03:07.727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-11 02:03:07.728 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-11 02:03:07.729 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-11 02:03:07.759 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-11 02:03:07.760 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1383 ms
+2025-08-11 02:03:08.522 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-11 02:03:08.989 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-11 02:03:09.063 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-11 02:03:09.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-11 02:03:09.087 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 3.107 seconds (process running for 4.0)
+2025-08-11 02:03:09.091 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-11 02:03:09.495 [RMI TCP Connection(4)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-11 02:03:09.498 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-11 02:03:09.499 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-11 02:03:09.504 [RMI TCP Connection(4)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-11 02:03:09.760 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45727581
+2025-08-11 02:03:09.762 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-11 02:03:14.808 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-uri: /emps/list
+2025-08-11 02:03:14.829 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-11 02:03:14.848 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Get all employees
+2025-08-11 02:05:55.840 [http-nio-8080-exec-4] INFO  com.bilin.filter.LoginCheckFilter-uri: /emps
+2025-08-11 02:05:55.842 [http-nio-8080-exec-4] ERROR com.bilin.filter.LoginCheckFilter-Token is null
+2025-08-11 02:06:06.880 [http-nio-8080-exec-6] INFO  com.bilin.filter.LoginCheckFilter-uri: /emps
+2025-08-11 02:06:06.892 [http-nio-8080-exec-6] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-11 02:06:06.913 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:张, gender:null, entry_date:null, end_date:null, page:1, pageSize:10
+2025-08-11 02:06:13.572 [http-nio-8080-exec-7] INFO  com.bilin.filter.LoginCheckFilter-uri: /emps
+2025-08-11 02:06:13.577 [http-nio-8080-exec-7] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754875447}
+2025-08-11 02:06:13.584 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:null, gender:2, entry_date:null, end_date:null, page:1, pageSize:10
+2025-08-11 02:06:25.786 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-11 02:06:25.795 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-11 02:06:25.801 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-11 02:06:25.808 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-11 17:21:03.088 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 49903 (/Users/Ivy/Desktop/java第三阶段/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_parent)
+2025-08-11 17:21:03.089 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-11 17:21:04.429 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-11 17:21:04.436 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-11 17:21:04.437 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-11 17:21:04.437 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-11 17:21:04.464 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-11 17:21:04.465 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1340 ms
+2025-08-11 17:21:05.200 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-11 17:21:05.642 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-11 17:21:05.692 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-11 17:21:05.700 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-11 17:21:05.721 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.965 seconds (process running for 3.789)
+2025-08-11 17:21:05.725 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-11 17:21:06.122 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-11 17:21:06.122 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-11 17:21:06.127 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-11 17:21:06.132 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-11 17:21:06.433 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29d8baf5
+2025-08-11 17:21:06.435 [RMI TCP Connection(3)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-11 17:21:17.157 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-uri: /login
+2025-08-11 17:21:17.209 [http-nio-8080-exec-1] INFO  com.bilin.controller.LoginController-Employee login: Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-08-11 17:21:33.295 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-uri: /emps
+2025-08-11 17:21:33.313 [http-nio-8080-exec-3] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754947277}
+2025-08-11 17:21:33.332 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:null, gender:null, entry_date:2010-01-01, end_date:null, page:1, pageSize:10
+2025-08-11 17:22:21.895 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-11 17:22:21.912 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-11 17:22:21.920 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-11 17:22:21.927 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-11 17:22:24.354 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 50644 (/Users/Ivy/Desktop/java第三阶段/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java第三阶段/learning_center_parent)
+2025-08-11 17:22:24.355 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-11 17:22:25.675 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-11 17:22:25.682 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-11 17:22:25.682 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-11 17:22:25.683 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-11 17:22:25.710 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-11 17:22:25.710 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1320 ms
+2025-08-11 17:22:26.426 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-11 17:22:26.854 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-11 17:22:26.902 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-11 17:22:26.910 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-11 17:22:26.938 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.93 seconds (process running for 3.717)
+2025-08-11 17:22:26.942 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-11 17:22:27.598 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-11 17:22:27.599 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-11 17:22:27.602 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-11 17:22:27.608 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-11 17:22:27.866 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b36c00d
+2025-08-11 17:22:27.868 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-11 17:22:30.766 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-uri: /emps
+2025-08-11 17:22:30.786 [http-nio-8080-exec-1] INFO  com.bilin.filter.LoginCheckFilter-claims: {id=2, username=songjiang, exp=1754947277}
+2025-08-11 17:22:30.818 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:null, gender:null, entry_date:2010-01-01, end_date:null, page:1, pageSize:10
+2025-08-11 18:46:49.748 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m51s317ms).
+2025-08-11 19:30:58.217 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-11 19:30:58.227 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-11 19:30:58.234 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-11 19:30:58.240 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

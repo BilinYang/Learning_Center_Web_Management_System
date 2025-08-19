@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bilin.mapper.CourseMapper">
+    <select id="page" resultType="com.bilin.entity.Course">
+        select * from course
+        <where>
+            <if test="courseName != null and courseName != ''">
+                course_name like concat('%', #{courseName}, '%')
+            </if>
+            <if test="begin != null">
+                and end_date &gt;= #{begin}
+            </if>
+            <if test="end != null">
+                and end_date &lt;= #{end}
+            </if>
+        </where>
+        order by create_time desc
+    </select>
+
+    <insert id="save" useGeneratedKeys="true" keyProperty="id">
+        insert into course values (null, #{courseName}, #{room}, #{beginDate}, #{endDate}, #{headTeacherId},
+            #{subject}, #{createTime}, #{updateTime}, #{headTeacherName}, #{courseStatus})
+    </insert>
+
+    <update id="update">
+        update course set
+              course_name=#{courseName}, room=#{room}, begin_date=#{beginDate}, end_date=#{endDate},
+              head_teacher_id=#{headTeacherId}, create_time=#{createTime}, update_time=#{updateTime},
+              head_teacher_name=#{headTeacherName}, course_status=#{courseStatus}
+            <if test="subject != null">
+                , subject=#{subject}
+            </if>
+        where id=#{id}
+    </update>
+</mapper>

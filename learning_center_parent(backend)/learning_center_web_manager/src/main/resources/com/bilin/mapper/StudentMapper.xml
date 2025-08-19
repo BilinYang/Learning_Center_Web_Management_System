@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bilin.mapper.StudentMapper">
+    <select id="page" resultType="com.bilin.entity.Student">
+        select s.*, c.course_name from student s
+            left join course c on s.course_id = c.id
+        <where>
+            <if test="studentName != null and studentName != ''">
+                s.student_name like concat('%', #{studentName}, '%')
+            </if>
+            <if test="degree != null and degree != ''">
+                and s.degree = #{degree}
+            </if>
+            <if test="courseId != null and courseId !=''">
+                and s.course_id = #{courseId}
+            </if>
+        </where>
+        order by create_time
+    </select>
+
+    <delete id="deleteBatch">
+        delete from student where id in
+            <foreach collection="ids" item="id" open="(" close=")" separator=",">
+                #{id}
+            </foreach>
+    </delete>
+
+    <insert id="save" useGeneratedKeys="true" keyProperty="id">
+        insert into student values
+            (null, #{studentName}, #{studentNumber}, #{gender}, #{phone}, #{idCardNum},
+             #{isCollegeStu},#{address}, #{degree}, #{graduationDate}, #{courseId},
+             #{violationCount}, #{penaltyPoints}, #{createTime}, #{updateTime})
+    </insert>
+
+    <update id="update">
+        update student
+        <set>
+            <if test="studentName != null and studentName != ''">student_name = #{studentName},</if>
+            <if test="studentNumber != null and studentNumber != ''">student_number = #{studentNumber},</if>
+            <if test="gender != null">gender = #{gender},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="idCardNum != null and idCardNum != ''">id_card_num = #{idCardNum},</if>
+            <if test="isCollegeStu != null">is_college_stu = #{isCollegeStu},</if>
+            <if test="address != null and address != ''">address = #{address},</if>
+            <if test="degree != null">degree = #{degree},</if>
+            <if test="graduationDate != null">graduation_date = #{graduationDate},</if>
+            <if test="courseId != null">course_id = #{courseId},</if>
+            <if test="violationCount != null">violation_count = #{violationCount},</if>
+            <if test="penaltyPoints != null">penalty_points = #{penaltyPoints},</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="countStudentDegreeData" resultType="java.util.Map">
+        select
+            (case degree when 1 then 'Middle school'
+                         when 2 then 'High school'
+                         when 3 then 'Junior college'
+                         when 4 then 'Bachelor''s'
+                         when 5 then 'Mater''s'
+                         when 6 then 'Doctorate'
+                         else 'Other' end) as name,
+            count(*) as value
+        from student group by degree
+        order by degree
+    </select>
+
+    <select id="getStudentCount" resultType="java.util.Map">
+        select
+            c.course_name as course_name,
+            count(s.id) as student_count
+        from course c
+        left join student s
+            on s.course_id = c.id
+        group by course_name
+        order by student_count desc
+    </select>
+</mapper>

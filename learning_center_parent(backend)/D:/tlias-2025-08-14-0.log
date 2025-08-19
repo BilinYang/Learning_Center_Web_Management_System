@@ -1,0 +1,926 @@
+2025-08-14 00:00:03.569 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:07:55.302 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:07:58.190 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:11:07.121 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:11:49.313 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:11:54.999 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:12:12.500 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:12:14.131 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:12:21.043 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:12:22.781 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:12:28.036 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:12:30.181 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:13:10.564 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:13:29.932 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:13:49.826 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:13:54.632 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:15:42.280 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:15:49.999 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:17:52.761 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:18:03.895 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:18:27.389 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:18:41.904 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:18:53.806 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:19:20.195 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:19:56.464 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:19:59.458 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:20:34.119 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:20:35.937 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:21:36.701 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:24:34.184 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:25:50.860 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:26:15.002 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:27:24.864 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:27:30.631 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:27:37.312 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:27:47.443 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:27:59.283 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:28:04.329 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:28:09.637 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:28:14.858 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:28:16.469 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:29:09.829 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:29:19.252 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:31:10.713 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:33:54.035 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:37:14.194 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:40:26.196 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:41:27.423 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:42:30.636 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:46:49.054 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:47:16.388 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:47:30.548 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:47:45.104 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:52:56.212 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:55:41.295 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:56:02.422 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:57:05.600 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:58:00.437 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:58:27.395 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:58:45.303 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:58:56.818 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:59:09.040 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 00:59:44.619 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:02:20.950 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:02:38.845 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:03:57.432 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:05:23.661 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:06:07.048 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:10:02.925 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:10:23.585 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:10:45.376 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:15:59.461 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:16:08.309 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:16:29.553 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:16:34.033 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:17:15.741 [http-nio-8080-exec-7] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 01:17:20.842 [http-nio-8080-exec-9] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 01:19:03.311 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:19:17.388 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:19:32.641 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:19:35.505 [http-nio-8080-exec-5] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 01:21:02.201 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:21:05.249 [http-nio-8080-exec-9] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 01:31:04.356 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:31:08.039 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:32:10.654 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:32:19.557 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:34:57.318 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:35:04.076 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:35:26.866 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:36:02.736 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:36:06.474 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:37:13.085 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:37:47.910 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:37:54.289 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:44:39.912 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:44:45.428 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:55:59.810 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 01:59:05.366 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m22s994ms).
+2025-08-14 02:01:39.507 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m4s135ms).
+2025-08-14 02:05:45.760 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m6s253ms).
+2025-08-14 02:10:35.880 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:11:09.317 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:13:59.720 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:14:53.641 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:16:53.976 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:17:10.776 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:17:53.830 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:21:52.086 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:26:08.750 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:26:10.379 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:27:06.201 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:27:10.250 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:27:47.346 [http-nio-8080-exec-3] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 02:29:12.518 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=joe_sss0182, password=, name=Joe Sanders, gender=1, phone=4388720844, job=3, salary=10000, image=, entryDate=2021-02-02, deptId=3, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2018-09-03, end=2020-10-06, company=Rice University, jobPosition=IT Head), EmpExpr(id=null, empId=null, begin=2017-08-01, end=2018-09-06, company=Intel, jobPosition=Software Developper)])
+2025-08-14 02:29:12.561 [http-nio-8080-exec-4] INFO  com.bilin.service.impl.EmpServiceImpl-id = 54
+2025-08-14 02:29:12.595 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:29:20.508 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:Joe, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:29:36.001 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:Joe, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:29:39.239 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:Joe Sn, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:29:41.309 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:Joe Sa, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:29:56.249 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=, password=, name=, gender=1, phone=4388720844, job=3, salary=10000, image=, entryDate=2021-02-02, deptId=3, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2018-09-03, end=2020-10-06, company=Rice University, jobPosition=IT Head), EmpExpr(id=null, empId=null, begin=2017-08-01, end=2018-09-06, company=Intel, jobPosition=Software Developper)])
+2025-08-14 02:29:56.674 [http-nio-8080-exec-8] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4388720844' for key 'emp.phone'
+### The error may exist in com/bilin/mapper/EmpMapper.java (best guess)
+### The error may involve com.bilin.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4388720844' for key 'emp.phone'
+; Duplicate entry '4388720844' for key 'emp.phone'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:254)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy86.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.insert(Unknown Source)
+	at com.bilin.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.bilin.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.bilin.controller.EmpController.save(EmpController.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4388720844' for key 'emp.phone'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy132.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 70 common frames omitted
+2025-08-14 02:30:02.824 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:30:04.285 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=, password=, name=, gender=null, phone=, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-08-14 02:30:04.312 [http-nio-8080-exec-3] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/bilin/mapper/EmpMapper.java (best guess)
+### The error may involve com.bilin.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy86.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.insert(Unknown Source)
+	at com.bilin.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.bilin.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.bilin.controller.EmpController.save(EmpController.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy132.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 70 common frames omitted
+2025-08-14 02:31:19.152 [http-nio-8080-exec-4] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 02:31:23.288 [http-nio-8080-exec-5] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 02:31:28.325 [http-nio-8080-exec-7] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 02:32:19.795 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:32:23.643 [http-nio-8080-exec-10] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 02:32:53.913 [http-nio-8080-exec-8] INFO  com.bilin.controller.UploadController-Original file name: pic.jpg
+2025-08-14 02:33:11.277 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=, password=, name=, gender=null, phone=, job=null, salary=null, image=https://learning-center-web-application.oss-cn-shanghai.aliyuncs.com/9ff57dfa-445e-4633-98cf-feef5953b232.jpg, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-08-30, end=2025-09-06, company=TFT, jobPosition=IT)])
+2025-08-14 02:33:11.316 [http-nio-8080-exec-1] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/bilin/mapper/EmpMapper.java (best guess)
+### The error may involve com.bilin.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy86.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.insert(Unknown Source)
+	at com.bilin.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.bilin.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.bilin.controller.EmpController.save(EmpController.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy132.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 70 common frames omitted
+2025-08-14 02:33:37.045 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=sdij, password=, name=weioj, gender=1, phone=11111111111, job=1, salary=29200, image=https://learning-center-web-application.oss-cn-shanghai.aliyuncs.com/9ff57dfa-445e-4633-98cf-feef5953b232.jpg, entryDate=2025-08-04, deptId=2, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-08-30, end=2025-09-06, company=TFT, jobPosition=IT)])
+2025-08-14 02:33:37.057 [http-nio-8080-exec-2] INFO  com.bilin.service.impl.EmpServiceImpl-id = 56
+2025-08-14 02:33:37.098 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:35:49.475 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 02:37:22.883 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-14 02:37:22.928 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-08-14 02:37:22.946 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-08-14 02:37:22.964 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-08-14 22:36:01.883 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Starting LearningCenterWebManagerApplication using Java 21.0.2 with PID 97511 (/Users/Ivy/Desktop/java_Phase3/learning_center_parent/learning_center_web_manager/target/classes started by Ivy in /Users/Ivy/Desktop/java_Phase3/learning_center_parent)
+2025-08-14 22:36:01.885 [main] INFO  com.bilin.LearningCenterWebManagerApplication-No active profile set, falling back to 1 default profile: "default"
+2025-08-14 22:36:03.227 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-08-14 22:36:03.241 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-14 22:36:03.242 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-08-14 22:36:03.243 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-14 22:36:03.275 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-08-14 22:36:03.276 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 1357 ms
+2025-08-14 22:36:03.938 [main] INFO  com.bilin.config.WebConfig-Adding interceptor
+2025-08-14 22:36:04.355 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-08-14 22:36:04.401 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-08-14 22:36:04.409 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-08-14 22:36:04.423 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Started LearningCenterWebManagerApplication in 2.891 seconds (process running for 3.891)
+2025-08-14 22:36:04.426 [main] INFO  com.bilin.LearningCenterWebManagerApplication-Application started up
+2025-08-14 22:36:04.979 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-14 22:36:04.980 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-08-14 22:36:04.981 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-08-14 22:36:04.983 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 2 ms
+2025-08-14 22:36:05.307 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e259664
+2025-08-14 22:36:05.313 [RMI TCP Connection(1)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-08-14 22:45:23.690 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:45:43.386 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:45:45.044 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:45:53.124 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:46:29.289 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:46:50.624 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:47:10.877 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:49:35.244 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:49:56.804 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:53:07.753 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:53:29.620 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:54:04.489 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:55:21.092 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:56:52.491 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=CiCiSees, password=, name=Cici Zeng, gender=2, phone=13928501002, job=3, salary=12000, image=, entryDate=2025-07-13, deptId=5, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2023-05-09, end=2025-06-05, company=Alibaba, jobPosition=HR)])
+2025-08-14 22:56:52.540 [http-nio-8080-exec-8] INFO  com.bilin.service.impl.EmpServiceImpl-id = 57
+2025-08-14 22:56:52.582 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:57:05.881 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=ewi, password=, name=, gender=null, phone=fweij, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-08-14 22:57:06.325 [http-nio-8080-exec-9] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/bilin/mapper/EmpMapper.java (best guess)
+### The error may involve com.bilin.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy86.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.insert(Unknown Source)
+	at com.bilin.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.bilin.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.bilin.controller.EmpController.save(EmpController.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy131.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 70 common frames omitted
+2025-08-14 22:57:33.562 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:58:31.577 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 22:59:06.146 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:00:06.431 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:01:49.485 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:04:42.716 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:04:47.613 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:07:16.159 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:08:15.976 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:08:19.803 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:www, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:08:21.767 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:w, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:10:13.505 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:10:13.533 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:10:20.865 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:10:35.164 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:12:09.398 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:12:09.414 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:12:13.251 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:12:44.608 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:12:44.641 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:12:55.010 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:12:55.026 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:13:00.845 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:13:00.867 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:13:24.529 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:13:24.546 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:13:26.475 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:13:37.056 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:13:37.161 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:15:13.610 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:15:13.636 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:15:21.929 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:15:21.943 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:15:24.717 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:17:51.137 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:17:51.164 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:17:52.894 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:19:52.253 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:21:08.664 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:21:11.425 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=fw, password=, name=, gender=null, phone=, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-08-14 23:21:11.470 [http-nio-8080-exec-8] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/bilin/mapper/EmpMapper.java (best guess)
+### The error may involve com.bilin.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy86.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.insert(Unknown Source)
+	at com.bilin.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.bilin.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.bilin.controller.EmpController.save(EmpController.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy131.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 70 common frames omitted
+2025-08-14 23:21:23.491 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=fw, password=, name=, gender=null, phone=33, job=null, salary=null, image=, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-08-14 23:21:23.509 [http-nio-8080-exec-5] ERROR c.b.controller.exception.GlobalExceptionHandler-An exception occurred
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+### The error may exist in com/bilin/mapper/EmpMapper.java (best guess)
+### The error may involve com.bilin.mapper.EmpMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into emp values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+; Column 'gender' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:97)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy86.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy102.insert(Unknown Source)
+	at com.bilin.service.impl.EmpServiceImpl.save(EmpServiceImpl.java:67)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.bilin.service.impl.EmpServiceImpl$$SpringCGLIB$$0.save(<generated>)
+	at com.bilin.controller.EmpController.save(EmpController.java:49)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'gender' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:990)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:384)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy133.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy131.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 70 common frames omitted
+2025-08-14 23:21:51.889 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Add new employee: Emp(id=null, username=TonyT, password=, name=Tony Morrison, gender=1, phone=12648273111, job=2, salary=9000, image=, entryDate=2025-08-06, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=[])
+2025-08-14 23:21:51.906 [http-nio-8080-exec-10] INFO  com.bilin.service.impl.EmpServiceImpl-id = 58
+2025-08-14 23:21:51.930 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:21:55.870 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:Tony, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:23:39.789 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:23:39.805 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:24:37.465 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:24:37.487 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:24:43.136 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:24:43.153 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:25:10.082 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:25:32.470 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:25:32.565 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:25:34.524 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:29:43.254 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:29:43.275 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:29:51.172 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:29:51.238 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:31:27.313 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:31:27.736 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:31:29.552 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:31:47.845 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:32:21.646 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:32:32.923 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:33:09.996 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:35:10.451 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:35:10.487 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:35:54.542 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:35:54.562 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:35:57.867 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:38:44.259 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:38:44.278 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:39:47.467 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:39:47.491 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:40:09.615 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:40:09.642 [http-nio-8080-exec-6] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:40:38.787 [http-nio-8080-exec-8] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:40:38.816 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:40:52.443 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:40:52.459 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:55:08.021 [http-nio-8080-exec-3] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:55:08.052 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:55:38.985 [http-nio-8080-exec-9] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:55:40.244 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Get employee by id: 58
+2025-08-14 23:55:43.089 [http-nio-8080-exec-5] INFO  com.bilin.controller.EmpController-Get employee by id: 57
+2025-08-14 23:55:46.190 [http-nio-8080-exec-7] INFO  com.bilin.controller.EmpController-Get employee by id: 56
+2025-08-14 23:59:26.998 [http-nio-8080-exec-4] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:59:27.037 [http-nio-8080-exec-1] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:59:37.135 [http-nio-8080-exec-10] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
+2025-08-14 23:59:37.169 [http-nio-8080-exec-2] INFO  com.bilin.controller.EmpController-Pagination query- name:, gender:null, entry_date:null, end_date:null, page:1, pageSize:5
